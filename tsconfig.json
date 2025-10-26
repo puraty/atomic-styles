@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    /* 基本設定 */
+    "target": "ES2020",
+    "module": "ESNext",                 // ★ 'NodeNext' から 'ESNext' に変更
+    "moduleResolution": "Node",         // ★ 'NodeNext' から 'Node' に変更 (最も互換性が高い)
+    "rootDir": "src",
+    "outDir": "dist",
+    "esModuleInterop": true,            // ★ 'false' から 'true' に変更 (ESMとCJSの互換性確保)
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+    /* ビルド出力設定 */
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "test.ts",
+    "*.js",
+    "setup_atomic.sh"
+  ]
+}
