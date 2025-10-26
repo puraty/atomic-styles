@@ -24,7 +24,6 @@
     "typescript": "^5.9.3"
   },
   "type": "module",
-  "url": "git+https://github.com/YourUsername/atomic-styles.git",
   "types": "dist/index.d.ts",
   "files": ["dist", "README.md", "LICENSE"],
   "dependencies": {
@@ -37,5 +36,9 @@
     "undici-types": "^7.16.0",
     "v8-compile-cache-lib": "^3.0.1",
     "yn": "^3.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puraty/atomic-styles.git"
   }
 }
