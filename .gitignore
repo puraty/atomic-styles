@@ -16,3 +16,5 @@ yarn-error.log*
 
 # Testing (optional, but good practice)
 /temp
+/test
+test.ts
